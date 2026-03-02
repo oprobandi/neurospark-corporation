@@ -22,13 +22,13 @@
 
 import { useState, useEffect } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import {
 import { C, FONTS } from '../constants'
 // ─── Font aliases (sourced from constants.js) ─────────────────────────────────
 const FONT_DISPLAY = FONTS.display
 const FONT_BODY    = FONTS.body
 const FONT_MONO    = FONTS.mono
 
+import {
   ChevronDown, ChevronUp, ArrowLeft, CheckCircle,
   Zap, Shield, Globe, FileText, BarChart2, Briefcase,
   Lock, Package, MessageCircle, Truck, Building2,
